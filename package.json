@@ -1,0 +1,17 @@
+{
+  "name": "chevrotain_issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "yarn build",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "chevrotain": "^4.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}
